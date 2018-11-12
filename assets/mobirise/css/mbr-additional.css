@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah:400);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 
 
@@ -26,8 +27,8 @@ body {
   font-size: 2.1rem;
 }
 .display-2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Gloria Hallelujah', handwriting;
+  font-size: 1.9rem;
 }
 .display-4 {
   font-family: 'Open Sans', sans-serif;
@@ -53,9 +54,9 @@ body {
     line-height: calc( 1.4 * (1.385rem + (2.1 - 1.385) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.52rem;
+    font-size: calc( 1.315rem + (1.9 - 1.315) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.315rem + (1.9 - 1.315) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -202,24 +203,24 @@ body {
   transform: scale(0);
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
-  background-color: #005225;
-  border-color: #005225;
+  background-color: #0ae592;
+  border-color: #0ae592;
   -webkit-transform: scale(0);
   border-radius: 100px;
 }
 .btn-secondary,
 .btn-secondary:active,
 .btn-secondary.active {
-  background-color: #009e47 !important;
-  border-color: #009e47 !important;
-  color: #ffffff !important;
+  background-color: #44f7b3 !important;
+  border-color: #44f7b3 !important;
+  color: #023a25 !important;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary.focus {
-  color: #ffffff !important;
-  background-color: #005225 !important;
-  border-color: #005225 !important;
+  color: #023a25 !important;
+  background-color: #0ae592 !important;
+  border-color: #0ae592 !important;
 }
 .btn-secondary:hover:before,
 .btn-secondary:focus:before,
@@ -229,9 +230,9 @@ body {
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #ffffff !important;
-  background-color: #005225 !important;
-  border-color: #005225 !important;
+  color: #023a25 !important;
+  background-color: #0ae592 !important;
+  border-color: #0ae592 !important;
 }
 .btn-info {
   -webkit-transform: perspective(1px) translateZ(0);
@@ -600,8 +601,8 @@ body {
   transform: scale(0);
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
-  background-color: #009e47;
-  border-color: #009e47;
+  background-color: #44f7b3;
+  border-color: #44f7b3;
   -webkit-transform: scale(0);
   border-radius: 100px;
 }
@@ -609,15 +610,15 @@ body {
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   background: none;
-  border-color: #003819;
-  color: #003819 !important;
+  border-color: #09cc82;
+  color: #09cc82 !important;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus {
-  color: #ffffff !important;
-  background-color: #009e47;
-  border-color: #009e47;
+  color: #023a25 !important;
+  background-color: #44f7b3;
+  border-color: #44f7b3;
 }
 .btn-secondary-outline:hover:before,
 .btn-secondary-outline:focus:before,
@@ -627,9 +628,9 @@ body {
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
-  color: #ffffff !important;
-  background-color: #009e47 !important;
-  border-color: #009e47 !important;
+  color: #023a25 !important;
+  background-color: #44f7b3 !important;
+  border-color: #44f7b3 !important;
 }
 .btn-info-outline {
   -webkit-transform: perspective(1px) translateZ(0);
@@ -917,7 +918,7 @@ body {
   color: #003d38 !important;
 }
 .text-secondary {
-  color: #009e47 !important;
+  color: #44f7b3 !important;
 }
 .text-success {
   color: #ffc800 !important;
@@ -943,7 +944,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #003819 !important;
+  color: #09cc82 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -1375,7 +1376,7 @@ body {
     height: 0px;
     bottom: 0rem;
     center: 0%;
-    background: linear-gradient(90deg, #003d38, #009e47);
+    background: linear-gradient(90deg, #003d38, #44f7b3);
     transition: width 300ms linear, left 300ms linear;
   }
   .cid-r96PkNxbsT .nav-item.open .nav-link::before {
@@ -1760,6 +1761,79 @@ body {
     left: -1rem;
   }
 }
+.cid-r9cuwHhXBA {
+  display: -webkit-flex;
+  padding-top: 75px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-r9cuwHhXBA .mbr-overlay {
+  background: #7ccbf1;
+}
+.cid-r9cuwHhXBA .mbr-section-title {
+  margin: 0;
+}
+.cid-r9cuwHhXBA .mbr-text {
+  color: #767676;
+}
+.cid-r9cuwHhXBA .card-title {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-r9cuwHhXBA .card-img {
+  text-align: left;
+}
+.cid-r9cuwHhXBA .card .card-img span {
+  font-size: 60px;
+  color: #ffffff;
+}
+.cid-r9cuwHhXBA .header-content {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  align-self: stretch;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-align-self: stretch;
+  -webkit-flex-direction: column;
+}
+.cid-r9cuwHhXBA .header-content .text-row {
+  margin: auto 0;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-r9cuwHhXBA .features-row {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+@media (min-width: 992px) {
+  .cid-r9cuwHhXBA .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-r9cuwHhXBA .header-content {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.cid-r9cuwHhXBA .title-cont,
+.cid-r9cuwHhXBA .mbr-section-title {
+  color: #44f7b3;
+  text-align: right;
+}
+.cid-r9cuwHhXBA .mbr-section-subtitle,
+.cid-r9cuwHhXBA .mbr-section-btn {
+  color: #767676;
+  text-align: right;
+}
+.cid-r9cuwHhXBA .card-title,
+.cid-r9cuwHhXBA .card-img {
+  color: #003d38;
+}
+.cid-r9cuwHhXBA .title-cont,
+.cid-r9cuwHhXBA .mbr-section-title SPAN {
+  color: #44f7b3;
+}
 .cid-r96PkNxbsT .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
@@ -1800,7 +1874,7 @@ body {
     height: 0px;
     bottom: 0rem;
     center: 0%;
-    background: linear-gradient(90deg, #003d38, #009e47);
+    background: linear-gradient(90deg, #003d38, #44f7b3);
     transition: width 300ms linear, left 300ms linear;
   }
   .cid-r96PkNxbsT .nav-item.open .nav-link::before {
