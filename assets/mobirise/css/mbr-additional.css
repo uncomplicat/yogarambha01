@@ -1353,11 +1353,11 @@ body {
 .cid-r979O7tW1h .div-block-x {
   position: absolute;
   top: -20%;
-  left: 40vw;
+  left: calc(50vw - 155px);
   align: center;
   overflow: hidden;
-  width: 30%;
-  height: auto;
+  width: 300px;
+  height: 300px;
   float: right;
   animation: float 6s ease-in-out infinite;
   opacity: 0.11;
