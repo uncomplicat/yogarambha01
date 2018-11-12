@@ -1352,13 +1352,13 @@ body {
 }
 .cid-r979O7tW1h .div-block-x {
   position: absolute;
-  center: 0%;
-  top: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  top: -20%;
+  left: 40vw;
+  align: center;
   overflow: hidden;
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: auto;
+  float: right;
   animation: float 6s ease-in-out infinite;
   opacity: 0.11;
 }
